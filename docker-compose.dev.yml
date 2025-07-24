@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  appointment-service:
+    environment:
+      NODE_ENV: development
+
+  patient-service:
+    environment:
+      NODE_ENV: development
+
+  ehr-service:
+    environment:
+      NODE_ENV: development

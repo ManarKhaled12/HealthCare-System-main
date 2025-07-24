@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  appointment-service:
+    environment:
+      NODE_ENV: production
+    restart: always
+
+  patient-service:
+    environment:
+      NODE_ENV: production
+    restart: always
+
+  ehr-service:
+    environment:
+      NODE_ENV: production
+    restart: always
